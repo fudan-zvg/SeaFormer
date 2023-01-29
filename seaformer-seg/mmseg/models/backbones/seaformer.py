@@ -251,7 +251,8 @@ class Sea_Attention(torch.nn.Module):
         qkv = self.act(self.dwconv(qkv))
         qkv = self.pwconv(qkv)
 
-        # squeeze row
+        # squeeze axial attention
+        ## squeeze row
         qrow = self.pos_emb_rowq(q.mean(-1)).reshape(B, self.num_heads, -1, H).permute(0, 1, 3, 2)
         krow = self.pos_emb_rowk(k.mean(-1)).reshape(B, self.num_heads, -1, H)
         vrow = v.mean(-1).reshape(B, self.num_heads, -1, H).permute(0, 1, 3, 2)
@@ -262,7 +263,7 @@ class Sea_Attention(torch.nn.Module):
         xx_row = self.proj_encode_row(xx_row.permute(0, 1, 3, 2).reshape(B, self.dh, H, 1))
 
         
-        # squeeze column
+        ## squeeze column
         qcolumn = self.pos_emb_columnq(q.mean(-2)).reshape(B, self.num_heads, -1, W).permute(0, 1, 3, 2)
         kcolumn = self.pos_emb_columnk(k.mean(-2)).reshape(B, self.num_heads, -1, W)
         vcolumn = v.mean(-2).reshape(B, self.num_heads, -1, W).permute(0, 1, 3, 2)
