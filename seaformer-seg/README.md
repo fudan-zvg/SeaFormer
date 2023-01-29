@@ -11,14 +11,14 @@
 
 Model | Params | FLOPs | mIoU(ss)    | Link
 --- |:---:|:---:|:---:|:---: |
-SeaFormer-T_512x512_2x8_160k | 1.7 | 0.6 | 35.0 | [Baidu Drive](), [Google Drive]()
-SeaFormer-T_512x512_4x8_160k | 1.7 | 0.6 | 35.8 | [Baidu Drive](), [Google Drive]()
-SeaFormer-S_512x512_2x8_160k | 4.0 | 1.1 | 38.1 | [Baidu Drive](), [Google Drive]()
-SeaFormer-S_512x512_4x8_160k | 4.0 | 1.1 | 39.4 | [Baidu Drive](), [Google Drive]()
-SeaFormer-B_512x512_2x8_160k | 8.6 | 1.8 | 40.2 | [Baidu Drive](), [Google Drive]()
-SeaFormer-B_512x512_4x8_160k | 8.6 | 1.8 | 41.0 | [Baidu Drive](), [Google Drive]()
-SeaFormer-L_512x512_2x8_160k | 14.0 | 6.5 | 42.7 | [Baidu Drive](), [Google Drive]()
-SeaFormer-L_512x512_4x8_160k | 14.0 | 6.5 | 43.7 | [Baidu Drive](), [Google Drive]()
+SeaFormer-T_512x512_2x8_160k | 1.7 | 0.6 | 35.0 | [Baidu Drive](https://pan.baidu.com/s/1LVcgdzX1TjtIQE_BnXB4RA), [Google Drive](https://drive.google.com/file/d/14l4bTXYsaE-NaMpmBa-dXmt7l3_TJogQ/view?usp=share_link)
+SeaFormer-T_512x512_4x8_160k | 1.7 | 0.6 | 36.5 | [Baidu Drive](https://pan.baidu.com/s/1jCV8scTv--DRIlB0ml3yKg), [Google Drive](https://drive.google.com/file/d/1eIBkr2x5jv4eNaNUQpC-91tbIlktXSPi/view?usp=share_link)
+SeaFormer-S_512x512_2x8_160k | 4.0 | 1.1 | 38.9 | [Baidu Drive](https://pan.baidu.com/s/1G0ypLXLThIRN7vo7zPBTqA), [Google Drive](https://drive.google.com/file/d/1eVLFdORpvdLS68hTJCN_SzGuHmepAFxT/view?usp=share_link)
+SeaFormer-S_512x512_4x8_160k | 4.0 | 1.1 | 39.5 | [Baidu Drive](https://pan.baidu.com/s/1j7srQjz3F9WoGsIIjkSgBw), [Google Drive](https://drive.google.com/file/d/1hGXFVc7F-vLAKe3BLjqnS06_8Fo7CO-L/view?usp=share_link)
+SeaFormer-B_512x512_2x8_160k | 8.6 | 1.8 | 41.2 | [Baidu Drive](https://pan.baidu.com/s/1CpA4-dWbENm1FSoRppaNwA), [Google Drive](https://drive.google.com/file/d/1H-GLdNzEViB2-QAtLdXpQVngUmMb_Vsa/view?usp=share_link)
+SeaFormer-B_512x512_4x8_160k | 8.6 | 1.8 | 41.9 | [Baidu Drive](https://pan.baidu.com/s/1QEsoxlDz-EdAnVQn5vJJww), [Google Drive](https://drive.google.com/file/d/1flVg9imJTbgjcJrJiIn_3_lmYpaSKZuV/view?usp=share_link)
+SeaFormer-L_512x512_2x8_160k | 14.0 | 6.5 | 43.0 | [Baidu Drive](https://pan.baidu.com/s/1gNPLfuJH21NZ55aQY3_6RQ), [Google Drive](https://drive.google.com/file/d/1AbbzfQIH6z7tJ8PGlnY1d0S1eEXkva8S/view?usp=share_link)
+SeaFormer-L_512x512_4x8_160k | 14.0 | 6.5 | 43.8 | [Baidu Drive](https://pan.baidu.com/s/1Hybn3hKoxPdzRirVmqgjyw), [Google Drive](https://drive.google.com/file/d/1SUISoIpZujAYrxrvGPMJidzfYH2KYaAp/view?usp=share_link)
 
 - The password of Baidu Drive is seaf
 
@@ -33,13 +33,4 @@ To evaluate, run:
 ```
 sh tools/dist_test.sh local_configs/seaformer/<config-file> <checkpoint-path> <num-of-gpus-to-use>
 ```
-
-
-## Citation
-
-If you find our work helpful to your experiments, please cite with:
-```
-
-```
-
 
