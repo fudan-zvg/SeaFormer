@@ -248,7 +248,7 @@ class Sea_Attention(torch.nn.Module):
         k = self.to_k(x)
         v = self.to_v(x)
         
-        # spatial enhancement branch
+        # detail enhance
         qkv = torch.cat([q, k, v], dim=1)
         qkv = self.act(self.dwconv(qkv))
         qkv = self.pwconv(qkv)
