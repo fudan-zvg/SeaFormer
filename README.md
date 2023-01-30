@@ -1,7 +1,7 @@
 # Squeeze-enhanced axial Transformer
 
 <div align="center">
-  <img width="1200", src="./transformer.png">
+  <img width="1200", src="./seaformer.png">
 </div>
 
 
