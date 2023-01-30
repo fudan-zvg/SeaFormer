@@ -54,7 +54,7 @@ If you use this code for a paper, please cite:
 
 ```
 
-##Acknowledgment
+## Acknowledgment
 Thanks to previous open-sourced repo:
 [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 [TopFormer](https://github.com/hustvl/TopFormer)
