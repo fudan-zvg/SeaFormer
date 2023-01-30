@@ -37,7 +37,14 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 |  Light Head  | SeaFormer-Base   | ImageNet-1K | 160K  | 41.9     |
 |  Light Head  | SeaFormer-Large  | ImageNet-1K | 160K  | 43.8     |
 
+- SeaFormer on Cityscapes
 
+| Method         |      Backbone    |   FLOPs | mIoU(ss) |
+|----------------|------------------|---------|----------|
+|  Light Head(h) | SeaFormer-Small  |   2.0G  | 70.7     |
+|  Light Head(f) | SeaFormer-Small  |   8.0G  | 76.1     |
+|  Light Head(h) | SeaFormer-Base   |   3.4G  | 72.2     |
+|  Light Head(f) | SeaFormer-Base   |   13.7G | 77.7     |
 
 
 ## Citation
