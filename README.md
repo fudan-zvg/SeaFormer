@@ -39,7 +39,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 
 - SeaFormer on Cityscapes
 
-| Method         |      Backbone    |   FLOPs | mIoU(ss) |
+| Method         |      Backbone    |   FLOPs | mIoU |
 |----------------|------------------|---------|----------|
 |  Light Head(h) | SeaFormer-Small  |   2.0G  | 70.7     |
 |  Light Head(f) | SeaFormer-Small  |   8.0G  | 76.1     |
