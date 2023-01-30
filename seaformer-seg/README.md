@@ -25,10 +25,10 @@ SeaFormer-L_512x512_4x8_160k | 14.0 | 6.5 | 43.8 | [Baidu Drive](https://pan.bai
 ## Usage
 Please see [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md) for dataset prepare.
 
-For training, run:
+For training on SeaFormer_Tiny, run:
 ```
 mkdir -p modelzoos/classification
-mv SeaFormer_T_cls_68.1.pth.tar modelzoos/classification/SeaFormer_T.pth
+mv last.pth.tar modelzoos/classification/SeaFormer_T.pth
 sh tools/dist_train.sh local_configs/seaformer/<config-file> <num-of-gpus-to-use> --work-dir /path/to/save/checkpoint
 ```
 To evaluate, run:
