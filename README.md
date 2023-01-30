@@ -48,7 +48,6 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 
 
 ## Citation
-If you use this code for a paper, please cite:
 
 ```
 
