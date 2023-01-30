@@ -27,6 +27,8 @@ Please see [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/ma
 
 For training, run:
 ```
+mkdir -p modelzoos/classification
+mv SeaFormer_T_cls_68.1.pth.tar modelzoos/classification/SeaFormer_T.pth
 sh tools/dist_train.sh local_configs/seaformer/<config-file> <num-of-gpus-to-use> --work-dir /path/to/save/checkpoint
 ```
 To evaluate, run:
