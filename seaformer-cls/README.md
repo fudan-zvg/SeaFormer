@@ -5,6 +5,7 @@
 First, clone the repository locally:
 ```
 git clone https://github.com/fudan-zvg/SeaFormer
+cd SeaFormer/seaformer-cls
 ```
 Then, install PyTorch 1.6.0+ and torchvision 0.7.0+ and [pytorch-image-models 0.3.2](https://github.com/rwightman/pytorch-image-models):
 
