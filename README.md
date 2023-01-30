@@ -56,7 +56,7 @@ If you use this code for a paper, please cite:
 
 ## Acknowledgment
 Thanks to previous open-sourced repo:\
-[mmsegmentation](https://github.com/open-mmlab/mmsegmentation)\
 [TopFormer](https://github.com/hustvl/TopFormer)\
+[mmsegmentation](https://github.com/open-mmlab/mmsegmentation)\
 [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)
 
