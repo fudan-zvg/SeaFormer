@@ -41,7 +41,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 
 | Method         |      Backbone    |   FLOPs | mIoU |
 |----------------|------------------|---------|----------|
-|  Light Head(h) | SeaFormer-Small  |   2.0G  | 70.7     |
+|  Light Head(h) | SeaFormer-Small  |   2.0G  | 71.1     |
 |  Light Head(f) | SeaFormer-Small  |   8.0G  | 76.1     |
 |  Light Head(h) | SeaFormer-Base   |   3.4G  | 72.2     |
 |  Light Head(f) | SeaFormer-Base   |   13.7G | 77.7     |
