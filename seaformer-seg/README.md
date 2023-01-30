@@ -33,7 +33,7 @@ mkdir -p modelzoos/classification
 ```
 For training on SeaFormer_Tiny, run:
 ```
-mv last.pth.tar modelzoos/classification/SeaFormer_T.pth
+cp /cls_outdir/last.pth.tar modelzoos/classification/SeaFormer_T.pth
 sh tools/dist_train.sh local_configs/seaformer/<config-file> <num-of-gpus-to-use> --work-dir /path/to/save/checkpoint
 ```
 To evaluate, run:
