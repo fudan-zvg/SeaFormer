@@ -25,6 +25,11 @@ SeaFormer-L_512x512_4x8_160k | 14.0 | 6.5 | 43.8 | [Baidu Drive](https://pan.bai
 ## Usage
 Please see [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md) for dataset prepare.
 
+clone the repository locally:
+```
+git clone https://github.com/fudan-zvg/SeaFormer
+cd SeaFormer/seaformer-seg
+```
 For training on SeaFormer_Tiny, run:
 ```
 mkdir -p modelzoos/classification
