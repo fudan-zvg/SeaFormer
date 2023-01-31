@@ -5,7 +5,7 @@
 </div>
 
 
-This repository contains the official implementation of [SeaFormer](https://arxiv.org/abs/) in image classification and semantic segmentation tasks.
+This repository contains the official implementation of [SeaFormer](https://arxiv.org/abs/2301.13156) in image classification and semantic segmentation tasks.
 
 
 ## Model Zoo
