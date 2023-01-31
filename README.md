@@ -1,5 +1,9 @@
 # Squeeze-enhanced axial Transformer
 
+<div align="center">
+  <img width="1200", src="./latency.png">
+</div>
+
 ## The overall architecture of Seaformer
 <div align="center">
   <img width="1200", src="./seaformer.png">
