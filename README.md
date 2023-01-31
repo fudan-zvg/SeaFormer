@@ -1,7 +1,13 @@
 # Squeeze-enhanced axial Transformer
 
+## The overall architecture of Seaformer
 <div align="center">
   <img width="1200", src="./seaformer.png">
+</div>
+
+## The schematic illustration of the SeaFormer layer
+<div align="center">
+  <img width="1200", src="./sea_attention.png">
 </div>
 
 
@@ -42,7 +48,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 | Method         |      Backbone    |   FLOPs | mIoU |
 |----------------|------------------|---------|----------|
 |  Light Head(h) | SeaFormer-Small  |   2.0G  | 71.1     |
-|  Light Head(f) | SeaFormer-Small  |   8.0G  | 76.1     |
+|  Light Head(f) | SeaFormer-Small  |   8.0G  | 76.4     |
 |  Light Head(h) | SeaFormer-Base   |   3.4G  | 72.2     |
 |  Light Head(f) | SeaFormer-Base   |   13.7G | 77.7     |
 
@@ -50,7 +56,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 ## Citation
 
 ```
-@article{zhang2022topformer,
+@article{wan2023seaformer,
   title     = {SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation},
   author    = {Wan, Qiang and Huang, Zilong and Lu, Jiachen and Yu, Gang and Zhang, Li.},
   booktitle = {International Conference on Learning Representations (ICLR)},
