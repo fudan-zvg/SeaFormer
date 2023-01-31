@@ -8,7 +8,7 @@
 
 
 ## Main results
-
+Results on ADE20K
 Model | Params | FLOPs | mIoU(ss)    | Link
 --- |:---:|:---:|:---:|:---: |
 SeaFormer-T_512x512_2x8_160k | 1.7 | 0.6 | 35.0 | [Baidu Drive](https://pan.baidu.com/s/1LVcgdzX1TjtIQE_BnXB4RA), [Google Drive](https://drive.google.com/file/d/14l4bTXYsaE-NaMpmBa-dXmt7l3_TJogQ/view?usp=share_link)
@@ -19,6 +19,14 @@ SeaFormer-B_512x512_2x8_160k | 8.6 | 1.8 | 41.2 | [Baidu Drive](https://pan.baid
 SeaFormer-B_512x512_4x8_160k | 8.6 | 1.8 | 41.9 | [Baidu Drive](https://pan.baidu.com/s/1QEsoxlDz-EdAnVQn5vJJww), [Google Drive](https://drive.google.com/file/d/1flVg9imJTbgjcJrJiIn_3_lmYpaSKZuV/view?usp=share_link)
 SeaFormer-L_512x512_2x8_160k | 14.0 | 6.5 | 43.0 | [Baidu Drive](https://pan.baidu.com/s/1gNPLfuJH21NZ55aQY3_6RQ), [Google Drive](https://drive.google.com/file/d/1AbbzfQIH6z7tJ8PGlnY1d0S1eEXkva8S/view?usp=share_link)
 SeaFormer-L_512x512_4x8_160k | 14.0 | 6.5 | 43.8 | [Baidu Drive](https://pan.baidu.com/s/1Hybn3hKoxPdzRirVmqgjyw), [Google Drive](https://drive.google.com/file/d/1SUISoIpZujAYrxrvGPMJidzfYH2KYaAp/view?usp=share_link)
+
+Results on Cityscapes
+Model |  FLOPs | mIoU  | Link
+--- |:---:|:---:|:---: |
+SeaFormer-S_1024x512_1x8_160k  | 2.0 | 71.1 | [Baidu Drive](https://pan.baidu.com/s/1AbG61WTa_SsUwrU-nrZuYA), [Google Drive](https://drive.google.com/file/d/1MQ-nkCMyrzUF_SnWyNCrjra9bPTmr7Iq/view?usp=share_link)
+SeaFormer-S_1024x1024_1x8_160k | 8.0 | 76.4 | [Baidu Drive](https://pan.baidu.com/s/1kJvndGxejy1x4Zc3w2DEkw), [Google Drive](https://drive.google.com/file/d/1jaia2FsZrxVkXzVY-BmIwQXr523feAxC/view?usp=share_link)
+SeaFormer-B_1024x512_1x8_160k  | 3.4 | 72.2 | [Baidu Drive](https://pan.baidu.com/s/1V0iRz1KWssGiU_8Ai3bUzw), [Google Drive](https://drive.google.com/file/d/1xIcxkwjIJgvPrm4UK7UXH5A5ZkNrCqRt/view?usp=share_link)
+SeaFormer-B_1024x1024_1x8_160k | 13.7| 77.7 | [Baidu Drive](https://pan.baidu.com/s/1RvaoX2UIynevbVn25aQT8A), [Google Drive](https://drive.google.com/file/d/1UgaSmQY1ZdFRokhHCB_u8HrDoNSodzIe/view?usp=share_link)
 
 - The password of Baidu Drive is seaf
 
