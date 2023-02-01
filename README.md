@@ -1,5 +1,6 @@
 # Squeeze-enhanced axial Transformer
 
+## SeaFormer achieves superior trade-off between performance and latency
 <div align="center">
   <img width="1200", src="./latency.png">
 </div>
