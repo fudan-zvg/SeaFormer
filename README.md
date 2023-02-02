@@ -61,7 +61,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 ## Citation
 
 ```
-@article{wan2023seaformer,
+@inproceedings{wan2023seaformer,
   title     = {SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation},
   author    = {Wan, Qiang and Huang, Zilong and Lu, Jiachen and Yu, Gang and Zhang, Li},
   booktitle = {International Conference on Learning Representations (ICLR)},
