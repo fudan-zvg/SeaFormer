@@ -1,4 +1,10 @@
 # Squeeze-enhanced axial Transformer
+### [Paper](https://arxiv.org/abs/2301.13156)
+> [**SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation**](https://arxiv.org/abs/2301.13156),            
+> Qiang Wan, Zilong Huang, Jiachen Lu, Gang Yu, Li Zhang        
+> **ICLR 2023**
+
+This repository contains the official implementation of SeaFormer.
 
 ## SeaFormer achieves superior trade-off between performance and latency
 <div align="center">
@@ -14,10 +20,6 @@
 <div align="center">
   <img width="1200", src="./sea_attention.png">
 </div>
-
-
-This repository contains the official implementation of [SeaFormer](https://arxiv.org/abs/2301.13156) in tasks of mobile semantic segmentation and image classification.
-
 
 ## Model Zoo
 
