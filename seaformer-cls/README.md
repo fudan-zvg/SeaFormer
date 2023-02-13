@@ -44,7 +44,7 @@ The directory structure is the standard layout for the torchvision [`datasets.Im
 | SeaFormer-Tiny   |  224 |  68.1 |     1.8     |    0.1    |[[Google]](https://drive.google.com/file/d/1Qh1-8n-KUSGCoKVVcvjuHkTb3AWcX7o5/view?usp=sharing) [[Baidu]](https://pan.baidu.com/s/1Kr6XEZUTHUZkZcAfSswMEw) |
 | SeaFormer-Small  |  224 |  73.4 |     4.1     |    0.2    |[[Google]](https://drive.google.com/file/d/1_jpChZPVDFbHfxZPQFL3wKPuDcDgEtPK/view?usp=share_link) [[Baidu]](https://pan.baidu.com/s/1LrySouv0BzRwqvi4D7vCzA) |
 | SeaFormer-Base   |  224 |  76.4 |     8.7     |    0.3    |[[Google]](https://drive.google.com/file/d/1pTqkYXmEfGuRD2119vWikwd68lGNo8Lx/view?usp=sharing) [[Baidu]](https://pan.baidu.com/s/1jXQmZKzneLy3g4GX8aaibQ) |
-| SeaFormer-Large  |  224 |  79.9 |     14.0    |    1.2    |[[Google]](https://drive.google.com/file/d/1FYyCHV1deCs02ims2Y-NybAMlo_a5o2p/view?usp=share_link) [[Baidu]](https://pan.baidu.com/s/11m4kwOD3dnym8lPQTk4Nng) |
+| SeaFormer-Large  |  224 |  79.9 |     14.0    |    1.2    |[[Google]](https://drive.google.com/file/d/1FYyCHV1deCs02ims2Y-NybAMlo_a5o2p/view?usp=sharing) [[Baidu]](https://pan.baidu.com/s/12ZA6L4lcCLo3nEMidAI-wA) |
 
 The password of Baidu Drive is seaf
 
