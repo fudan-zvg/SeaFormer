@@ -335,39 +335,6 @@ class h_sigmoid(nn.Module):
         return self.relu(x + 3) / 6
 
 
-class Fusion_block(nn.Module):
-    def __init__(
-            self,
-            inp: int,
-            oup: int,
-            fuse_type='bi',
-            norm_cfg=dict(type='BN', requires_grad=True),
-            activations=None,
-    ) -> None:
-        super(InjectionMultiSum, self).__init__()
-        self.norm_cfg = norm_cfg
-        self.local_embedding = ConvModule(inp, oup, kernel_size=1, norm_cfg=self.norm_cfg, act_cfg=None)
-        self.global_act = ConvModule(oup, oup, kernel_size=1, norm_cfg=self.norm_cfg, act_cfg=None)
-        self.act = h_sigmoid()
-
-        self.fuse_type = fuse_type
-
-    def forward(self, x_l, x_g):
-        '''
-        x_g: global features
-        x_l: local features
-        '''
-        B, C, H, W = x_l.shape
-        B, C_c, H_c, W_c = x_g.shape
-
-        local_feat = self.local_embedding(x_l)
-        global_act = self.global_act(x_g)
-        sig_act = F.interpolate(self.act(global_act), size=(H, W), mode='bilinear', align_corners=False)
-        global_feat = F.interpolate(global_feat, size=(H, W), mode='bilinear', align_corners=False)
-        out_detail = local_feat * sig_act
-
-
-
 class SeaFormer(nn.Module):
     def __init__(self, cfgs,
                  channels,
