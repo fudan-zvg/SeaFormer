@@ -60,7 +60,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 |  Light Head(f) | SeaFormer-Base   |   13.7G | 77.7     |
 
 
-## Citation
+## BibTeX
 
 ```
 @inproceedings{wan2023seaformer,
