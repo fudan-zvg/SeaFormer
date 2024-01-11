@@ -44,6 +44,8 @@ For training on SeaFormer_Tiny, run:
 cp /cls_outdir/last.pth.tar modelzoos/classification/SeaFormer_T.pth
 sh tools/dist_train.sh local_configs/seaformer/<config-file> <num-of-gpus-to-use> --work-dir /path/to/save/checkpoint
 ```
+We use 8 gpus by default. If you use fewer gpus, you will need to increase the batch size to ensure that the total batch size remains the same.
+
 To evaluate, run:
 ```
 sh tools/dist_test.sh local_configs/seaformer/<config-file> <checkpoint-path> <num-of-gpus-to-use>
