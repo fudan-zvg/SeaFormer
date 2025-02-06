@@ -1,8 +1,12 @@
 # Squeeze-enhanced axial Transformer
 ### [Paper](https://arxiv.org/abs/2301.13156)
-> [**SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation**](https://arxiv.org/abs/2301.13156),            
+> [**SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation**](https://arxiv.org/abs/2301.13156v4),            
 > Qiang Wan, Zilong Huang, Jiachen Lu, Gang Yu, Li Zhang        
 > **ICLR 2023**
+
+> [**SeaFormer++: Squeeze-enhanced Axial Transformer for Mobile Visual Recognition**](https://arxiv.org/abs/2301.13156),            
+> Qiang Wan, Zilong Huang, Jiachen Lu, Gang Yu, Li Zhang        
+> **IJCV 2025**
 
 This repository contains the official implementation of SeaFormer.
 
