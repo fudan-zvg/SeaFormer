@@ -79,7 +79,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
   title={SeaFormer++: Squeeze-enhanced axial transformer for mobile visual recognition},
   author={Wan, Qiang and Huang, Zilong and Lu, Jiachen and Yu, Gang and Zhang, Li},
   journal={International Journal of Computer Vision (IJCV)},
-  publisher={Springer}
+  year={2025}
 }
 ```
 
