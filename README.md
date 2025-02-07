@@ -66,7 +66,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 
 ## BibTeX
 
-```
+```bibtex
 @inproceedings{wan2023seaformer,
   title={Seaformer: Squeeze-enhanced axial transformer for mobile semantic segmentation},
   author={Wan, Qiang and Huang, Zilong and Lu, Jiachen and Gang, YU and Zhang, Li},
@@ -74,7 +74,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
   year={2023}
 }
 ```
-```
+```bibtex
 @article{wan2025seaformer++,
   title={SeaFormer++: Squeeze-enhanced axial transformer for mobile visual recognition},
   author={Wan, Qiang and Huang, Zilong and Lu, Jiachen and Yu, Gang and Zhang, Li},
