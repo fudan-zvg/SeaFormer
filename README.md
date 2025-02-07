@@ -70,7 +70,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 @inproceedings{wan2023seaformer,
   title={Seaformer: Squeeze-enhanced axial transformer for mobile semantic segmentation},
   author={Wan, Qiang and Huang, Zilong and Lu, Jiachen and Gang, YU and Zhang, Li},
-  booktitle={The eleventh international conference on learning representations},
+  booktitle={International Conference on Learning Representations (ICLR)},
   year={2023}
 }
 ```
@@ -78,9 +78,7 @@ Segmentation configs & weights see >>>[here](seaformer-seg/)<<<.
 @article{wan2025seaformer++,
   title={SeaFormer++: Squeeze-enhanced axial transformer for mobile visual recognition},
   author={Wan, Qiang and Huang, Zilong and Lu, Jiachen and Yu, Gang and Zhang, Li},
-  journal={International Journal of Computer Vision},
-  pages={1--22},
-  year={2025},
+  journal={International Journal of Computer Vision (IJCV)},
   publisher={Springer}
 }
 ```
